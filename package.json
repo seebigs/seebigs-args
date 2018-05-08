@@ -1,0 +1,21 @@
+{
+  "name": "seebigs-args",
+  "version": "1.0.0",
+  "description": "A simple, convenient way to get command line arguments",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test --foo --bar=123 extra"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seebigs/seebigs-args.git"
+  },
+  "author": "Chris Bigelow <seebigswork@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/seebigs/seebigs-args/issues"
+  },
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
