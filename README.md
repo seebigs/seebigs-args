@@ -10,7 +10,7 @@ $ npm install seebigs-args
 ## Use
 app.js
 ```js
-const args = require('seebigs-args');
+const args = require('seebigs-args')();
 
 console.log(args._); // ['command']
 console.log(args.foo); // true
